@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Interaktiivne_raamat.MainPage"
+             Title="TTHK">
+            
+    <MasterDetailPage.Master>
+        <ContentPage Title="Master" Padding="15">
+    <ContentPage.Content>
+        <StackLayout Margin="10">
+            <Label Text="master Page Elemendid"/>
+        </StackLayout>
+    </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+</MasterDetailPage>
