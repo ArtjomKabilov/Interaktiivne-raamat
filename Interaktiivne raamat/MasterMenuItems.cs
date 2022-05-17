@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Interaktiivne_raamat
 {
-    class MasterMenuItems
+    public class MasterMenuItems
     {
         public string Text { get; set; }
         public string Detail { get; set; }

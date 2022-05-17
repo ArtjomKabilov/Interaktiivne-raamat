@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Interaktiivne_raamat.Views
+namespace Interaktiivne_raamat
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page : ContentPage
+    public partial class Ema
     {
-        public Page()
+        public Ema()
         {
             InitializeComponent();
         }

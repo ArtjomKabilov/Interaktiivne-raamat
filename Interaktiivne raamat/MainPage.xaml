@@ -5,11 +5,21 @@
              Title="TTHK">
             
     <MasterDetailPage.Master>
-        <ContentPage Title="Master" Padding="15">
+        <ContentPage Title="Menu" BackgroundColor="LightCyan"  Padding="10">
     <ContentPage.Content>
-        <StackLayout Margin="10">
-            <Label Text="master Page Elemendid"/>
-        </StackLayout>
+        <StackLayout Margin="10" Orientation="Horizontal">
+           <Image x:Name="profileImage"></Image>
+                    <ListView x:Name="aboutList" ItemSelected="aboutList_ItemSelected">
+                        <ListView.ItemTemplate>
+
+                            <DataTemplate>
+                                <ImageCell Text="{Binding Text}" Detail="{Binding Detail}"
+                                            ImageSource="{Binding ImagePath}">
+                                </ImageCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
     </ContentPage.Content>
         </ContentPage>
     </MasterDetailPage.Master>
